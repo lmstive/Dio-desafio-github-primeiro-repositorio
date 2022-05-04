@@ -1,1 +1,57 @@
-O Git Bash é uma extenção para o uso do Git
+Git / GitHub
+
+O que vamos aprender
+				Windows			Unix
+Mudar de pastas			cd			cd	
+Listar as pastas		dir			ls		
+Criar as pastas/arquivos	mkdri			mkdir	
+Deletar pastas/arquivos		del / rmdir		rm -rf
+
+Windows										Unix
+dir - Lista os diretorios							ls
+cd - Navega entre as pastas 							cd
+cd .. - volta para a pasta anterios						cd ..
+cls - Limpa a tela								clear ou ctrl + l
+mkdir - cria uma pasta								mkdir
+echo "mensagem" > mensagem.txt - printa o texto no arquivo .txt
+del - deleta arquivos
+rmdir "pasta" /s /a - Remove a pasta						rm -rf "pasta"
+
+
+Introdução ao Git
+
+SHA1 - A sigla SHA significa SECURE HASH ALGORITHM (Algoritmo de hash seguro)é um conjunto de funções hash criptograficas projetadas pela NSA Agencia de segurança nacional dos EUA 
+A encriptação gera um conjunto de 40 digitos.
+
+Objetos Internos
+
+Blobs - Trees - Commits
+
+Chaves SSH e Tokens
+
+ssh-keygen -t ed25519 -C "e-mail"
+eval $(ssh-agent -s)
+ssd-add id25519
+
+Para copiar - Git clone Link do SSH
+
+Token de acesso pessoal - Git clone link https:
+
+	Criar um commit
+git init
+git add
+git commit
+
+ls -a - Mostra as pastas ocultas
+
+Configurando o autor
+
+git config --global user.email "lmstive@gmail.com"
+
+ADICIONANDO UM ARQUIVO
+
+git add * 
+
+git commit -m "Mensagem que vc deve escrever aqui"
+
+
