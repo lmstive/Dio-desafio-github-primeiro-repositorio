@@ -4,7 +4,7 @@ O que vamos aprender
 				Windows			Unix
 Mudar de pastas			cd			cd	
 Listar as pastas		dir			ls		
-Criar as pastas/arquivos	mkdri			mkdir	
+Criar as pastas/arquivos	mkdir			mkdir	
 Deletar pastas/arquivos		del / rmdir		rm -rf
 
 Windows										Unix
@@ -50,8 +50,14 @@ git config --global user.email "lmstive@gmail.com"
 
 ADICIONANDO UM ARQUIVO
 
-git add * 
+git add * - Adiciona tudo 
+
+git add. - Adiciona tudo modificado 
 
 git commit -m "Mensagem que vc deve escrever aqui"
+
+git status - verifica o status 
+
+git push origin master
 
 
